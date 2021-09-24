@@ -1,0 +1,295 @@
+/* Для шриштів: налаштування шрифта+кирилиця, підключаємо завжди! Чистимо непотрібні розміри шрифта в посиланні, для кращої оптимізації.
+ &display=swap&subset=cyrillic-ext */
+
+/*@import url("https://fonts.googleapis.com/css?family=Chivo:300,300italic,regular,italic,700,700italic&display=swap&subset=cyrillic-ext");*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,300italic,regular,italic,700,700italic&display=swap&subset=cyrillic-ext");
+
+/*@font-face {
+  font-family: "Polaris";
+  src: url("../fonts/Polaris.woff2") format("woff2"), url("../fonts/Polaris.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}*/
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PTSans-CaptionBold.woff2") format("woff2"), url("../fonts/PTSans-CaptionBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PTSans-Caption.woff2") format("woff2"), url("../fonts/PTSans-Caption.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Обнулення СТИЛІВ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  /*font-family: "Chivo", "Arial", sans-serif;*/
+  font-family: "Poppins", "Arial", sans-serif;
+  line-height: 2;
+}
+.liColor,
+.footer {
+  font-family: "PT Sans", serif;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+/* --------------- */
+
+.rainbow {
+  width: 100%;
+}
+.mainContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.liColor {
+  text-transform: uppercase;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.liColor li {
+  padding: 0px 0px 0px 20px;
+}
+.blockNav li {
+  display: inline-block;
+}
+.colorViolet {
+  color: #a100ff;
+}
+.colorBlue {
+  color: #0023de;
+}
+.colorBlueSky {
+  color: #3fbeff;
+}
+.colorGreen {
+  color: #4eff1f;
+}
+.colorYellow {
+  color: #fdff1f;
+}
+.colorOrang {
+  color: #fba723;
+}
+.colorRed {
+  color: #ef3d2b;
+}
+.violet {
+  width: 200px;
+  padding: 10px 10px 10px 10px;
+  background-color: #a100ff;
+  color: #ffffff;
+}
+.violet a {
+  color: #000000;
+  text-decoration: underline;
+  padding: 20px;
+  display: inline-block;
+}
+.blue {
+  background-color: #0023de;
+  color: #ffffff;
+  width: 350px;
+  padding: 0px 50px;
+  margin: 0px 0px 0px 200px;
+  max-height: 150px;
+  overflow: auto;
+}
+.blueSky {
+  background-color: #3fbeff;
+  color: #ffffff;
+  text-align: center;
+  width: 300px;
+  padding: 20px 0px;
+  margin: 0 auto;
+  overflow: hidden;
+  max-height: 100px;
+  font-weight: 700;
+}
+.green {
+  background-color: #4eff1f;
+  color: #000000;
+  width: 400px;
+  max-height: 150px;
+  padding: 15px 0px 0px 15px;
+  margin: 0px 0px 0px 400px;
+  overflow: visible;
+}
+.yellow {
+  background-color: #fdff1f;
+  color: #000000;
+  width: 250px;
+  margin: -370px 0px 50px -20px;
+}
+.orang {
+  background-color: #fba723;
+  color: #ffffff;
+  /*display: none;*/
+}
+.red {
+  background-color: #ef3d2b;
+  font-size: 12px;
+  color: #ffffff;
+  width: 200px;
+  margin: 0 auto 50px 600px;
+  max-height: 100px;
+  overflow: scroll;
+}
+.violet2 {
+  background-color: #a100ff;
+  color: #ffffff;
+  display: inline;
+}
+.blue2 {
+  background-color: #0023de;
+  color: #ffffff;
+  display: inline;
+}
+.blueSky2 {
+  background-color: #3fbeff;
+  color: #ffffff;
+  padding: 10px 0px 0px 10px;
+  display: inline-block;
+  max-height: 100px;
+  overflow: auto;
+}
+.green2 {
+  background-color: #4eff1f;
+  color: #000000;
+  padding: 20px 50px 15px 40px;
+  margin: 0px 0px 20px 0px;
+  display: block;
+}
+.yellow2 {
+  background-color: #fdff1f;
+  color: #000000;
+  padding: 50px 30px 10px;
+  display: block;
+}
+.orang2 {
+  background-color: #fba723;
+  color: #ffffff;
+  padding: 30px;
+  font-size: 30px;
+  display: inline-block;
+  margin: -20px 0px 0px 0px;
+}
+.orang2 a {
+  color: #ffffff;
+}
+.red2 {
+  background-color: #ef3d2b;
+  color: #ffffff;
+}
+.imgRainbow {
+  width: 100%;
+  display: block;
+}
+.imgRainbow2 {
+  background-color: #000000;
+  width: 200px;
+  padding: 0px 0 60px 0;
+}
+.imgRainbow3 {
+  background-color: #000000;
+  max-width: 300px;
+  max-height: 200px;
+  display: inline;
+}
+.imgRainbow4 {
+  width: 300px;
+  height: 600px;
+}
+.fls {
+  font-size: 50px;
+  color: #a100ff;
+  font-weight: 700;
+  text-align: center;
+}
+.hello {
+  background-color: #a100ff;
+  font-size: 20px;
+  display: block;
+}
+.block {
+  font-size: 0;
+}
+.blockBlock {
+  background-color: #fba723;
+  max-width: 200px;
+  max-width: 200px;
+  padding: 15px;
+  display: inline-block;
+  font-size: 18px;
+}
+.linkLast {
+  background-color: #3fbeff;
+  display: inline-block;
+  margin: 0 0 30px 0;
+}
+.text {
+  background-color: #4eff1f;
+  max-width: 100px;
+  font-size: 12px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 0px 30px;
+  display: inline-block;
+}
+.textDiv {
+  background-color: #a100ff;
+  padding: 30px 30px 30px 30px;
+}
+.textDiv2 {
+  background-color: #0023de;
+  padding: 30px 30px 30px 30px;
+  margin: -30px 0px 0px 0px;
+}
+.bigtext {
+  background-color: #4eff1f;
+  max-width: 300px;
+  max-height: 200px;
+  overflow: auto;
+  display: block;
+}
