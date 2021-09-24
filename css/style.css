@@ -261,6 +261,7 @@ body {
   max-width: 200px;
   max-width: 200px;
   padding: 15px;
+  overflow: auto;
   display: inline-block;
   font-size: 18px;
 }
